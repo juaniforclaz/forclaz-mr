@@ -308,7 +308,9 @@ div.nos {
     gap: .7rem;
     margin: 10px 0;
     cursor: default;
-
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
 }
   
 .nos img {
@@ -317,6 +319,8 @@ div.nos {
     border: 1px solid white;
     border-radius: 7px;
     box-shadow: 0 0px 5px rgb(255, 255, 255);
+    align-items: center;
+    margin-left: 110px;
 }
 
 /* Footer */
