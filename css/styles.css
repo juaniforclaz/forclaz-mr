@@ -7,6 +7,7 @@
 body {
     background-color: green;
     color: white;
+    overflow-x: hidden;
     background-color: #199234;
     background-color: #DFDBE5;
     background-color: #20921b;
@@ -177,7 +178,7 @@ h3 {
     margin-right: 40%;
 }
 
-h5 {
+h6 {
     color: white;
     padding: 15px;
     border-top: 1px solid white;
@@ -189,11 +190,13 @@ form {
     background-color: white;
     padding: 2%;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-bottom: 40px;
 }
 
-
+.btn-form {
+    margin-top: 30px;
+}
 
 /* Catalogo */
 
@@ -215,10 +218,12 @@ form {
     transition: .3s;
 }
 
+/*
 img:hover {
     box-shadow: 0 0px 5px rgb(255, 255, 255);
     transition: all 0.4s ease;
 }
+*/
 
 .news-cards h3 {
     font-size: 20px;
@@ -287,11 +292,10 @@ iframe:hover {
     color: white;
     margin: 20%;
     text-align: center;
-    text-shadow: 1px 1px 2px black;
     font-size: 20px;
 }
 
-/*Formulario*/
+/*Formulario
 
 .form {
     border-radius: 5px;
@@ -357,6 +361,9 @@ input[type=submit]:hover {
 
 }
 
+*/
+
+
 /* Nosotros */
 
 div.nos {
@@ -382,24 +389,38 @@ div.nos {
     margin-left: 110px;
 }
 
+.nosotros {
+    margin: 30px;
+    
+}
+
+.nosotros img {
+    border: 1px solid white;
+}
+
+
 /* Footer */
 
 footer {
     margin-top: 40px;
     text-align: center;
-    margin-bottom: 40px;
+    color: white;
 }
 
-.redes:hover {
-    text-decoration: underline;
-    text-shadow: 1px 1px 1px black;
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
 }
 
 .redes {
     margin: 15px;
 }
 
-.icono-ig {
-    width: 300px;
-    height: 500px;
+i.foot {
+    font-size: xx-large;
 }
+
