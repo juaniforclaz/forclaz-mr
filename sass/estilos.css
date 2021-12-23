@@ -1,0 +1,56 @@
+nav {
+  text-align: center;
+  margin: 0px;
+  background-color: #c5c5c5;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+  background-color: #0b532d;
+  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+}
+
+body .grid-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+body .grid-item {
+  width: 400px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+body .grid-item h1 {
+  color: white;
+}
+
+body .grid-item p {
+  color: white;
+}
+
+body .grid-item img {
+  width: 300px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+/*# sourceMappingURL=estilos.css.map */
