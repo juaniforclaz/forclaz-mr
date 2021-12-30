@@ -15,7 +15,25 @@ nav ul li a {
   color: white;
   background-color: green;
   padding: 5px;
-  border: 1px solid white;
+  border: white;
+}
+
+.grid-item button {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: aqua;
+  padding: 10px;
+  background-color: #0b532d;
+  border: 1px solid;
+  border-color: white;
+}
+
+.grid-item button a {
+  color: white;
+  text-decoration: none;
 }
 
 body {

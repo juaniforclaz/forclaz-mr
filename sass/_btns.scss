@@ -1,0 +1,19 @@
+.grid-item {
+    
+    button {
+    display: grid;
+    justify-content: center;
+    color: aqua;
+    padding: 10px;
+    background-color: $bg-color;    
+    border: 1px solid;
+    border-color: white;
+    
+        a {
+            color: $text-color;
+            text-decoration: none;
+        }
+
+    }
+
+}
