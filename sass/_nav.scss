@@ -1,12 +1,12 @@
 nav {
     text-align: center;
     margin: 0px;
-    background-color: rgb(197, 197, 197);
+    background-color: $bg-color-2;
     padding: 5px;
     
 
     ul {
-
+        
         li {
             display: inline-block;
 
@@ -14,9 +14,9 @@ nav {
                 margin: 20px;
                 text-decoration: none;
                 color: $text-color;
-                background-color: green;
-                padding: 5px;
-                border: $border-color
+                background-color: $bg-color;
+                padding: 8px;
+                border: 2px solid $border-color
 
             }
 
