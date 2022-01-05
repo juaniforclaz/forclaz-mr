@@ -49,7 +49,6 @@ body {
 
 .menu-footer {
     display: flex;
-
 }
 
 .a-foot {
@@ -62,9 +61,10 @@ body {
     color: black;
 }
 
-.card-body {
-    text-align: justify;
-}
- .card-img-top {
-     height: 12rem;
+.btn-light {
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }
