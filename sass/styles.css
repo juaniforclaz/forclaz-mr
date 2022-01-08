@@ -73,9 +73,15 @@ body {
   color: black;
 }
 
-.btns {
+.btn-light a {
   text-decoration: none;
   color: black;
 }
 
+.prod:hover {
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 /*# sourceMappingURL=styles.css.map */

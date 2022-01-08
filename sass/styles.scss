@@ -27,7 +27,6 @@ body {
 
 .logo-nav {
     width: 50px;
-
     border: 0.2px solid rgb(143, 143, 143);
     border-radius: 10px;
 }
@@ -67,4 +66,16 @@ body {
         text-decoration: none;
         color: black;
     }
+}
+
+.prod {
+
+}
+
+.prod:hover {
+    transform: scale(1.03, 1.03);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }

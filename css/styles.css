@@ -65,6 +65,26 @@ body {
 .card-body {
     text-align: justify;
 }
- .card-img-top {
-     height: 12rem;
+
+.card-img-top {
+    height: 12rem;
+    overflow: hidden;
+}
+
+.prod:hover {
+    transform: scale(1.03, 1.03);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card-img-top {
+    filter: grayscale(80%);
+}
+
+.card-img-top:hover {
+    filter: grayscale(0%);
+    transition: filter 0.3s;
 }

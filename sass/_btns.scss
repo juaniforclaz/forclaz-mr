@@ -1,7 +1,11 @@
+@mixin pad-btn() {
+    padding: 10px;
+}
+
 .grid-item {
     
     .btn {
-    padding: 10px;
+    @include pad-btn();
     background-color: $bg-color;    
     border: 1px solid;
     border-color: white;
