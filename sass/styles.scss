@@ -79,3 +79,29 @@ body {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
+.card-body {
+    text-align: justify;
+}
+
+.img-carrusel {
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+
+.prod-principal {
+    margin-top: 3em;
+    display: flex;
+    background-color: #ffffff;
+    width: 35em;
+    height: 20em;
+    justify-content: initial;
+    border: 3px solid transparent;
+    border-radius: 10px;
+
+    .img-prod-principal:hover {
+        transform: scale(1.05, 1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+}

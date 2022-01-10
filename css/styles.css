@@ -80,11 +80,15 @@ body {
     overflow: hidden;
 }
 
+/*
+
 .card-img-top {
     filter: grayscale(80%);
 }
 
 .card-img-top:hover {
-    filter: grayscale(0%);
+    filter:
     transition: filter 0.3s;
 }
+
+*/
