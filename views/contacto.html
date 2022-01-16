@@ -86,7 +86,8 @@
       <div class="col">
         <form class="form-floating">
           <div>
-            <input type="email" class="form-control mt-1" id="floatingInputValue" placeholder="name@example.com">
+            <input type="email" class="form-control mt-1" id="validationDefaultUsername" placeholder="name@example.com"
+              aria-describedby="inputGroupPrepend2" required>
             <label for="floatingInputValue"></label>
           </div>
           <div class="form-floating mt-1">
@@ -94,7 +95,30 @@
             <label for="floatingTextarea">Comentarios</label>
           </div>
           <div class="mt-3 text-center">
-            <button type="button" class="btn btn-success btn-form">Enviar</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Enviar
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tu mensaje ha sido enviado correctamente</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    En breve recibiras una respuesta. Por favor tene en cuenta que los mensajes los respondemos durante
+                    el horario de comercio. Muchas Gracias!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="./catalogo.html"><button type="button" class="btn btn-success"> Ver Catalogo</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </form>
       </div>
@@ -140,11 +164,11 @@
       <div class="row w-100">
         <p class="mx-auto text fs-5 border-bottom border-1 py-3 w-50 nav-item"></p>
       </div>
-      <div class="row mt-3 mx-auto mb-3">
+      <div class="row d-flex justify-content-center">
         <div class="col text-center">
-          <a class="a-foot" aria-current="page" href="../index.html">Inicio</a>
+          <a class="a-foot" href="../index.html">Inicio</a>
           <a class="a-foot" href="../views/catalogo.html">Catalogo</a>
-          <a class="a-foot" href="../views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
+          <a class="a-foot" href="../views/nosotros.html">Nosotros</a>
           <a class="a-foot" href="../views/servicio.html">Servicio</a>
           <a class="a-foot" href="../views/contacto.html">Contacto</a>
           </ul>

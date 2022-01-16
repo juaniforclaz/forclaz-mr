@@ -90,8 +90,7 @@ body {
 }
 
 .img-carrusel {
-  border: 2px solid transparent;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .prod-principal {
@@ -116,5 +115,30 @@ body {
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.col-img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-prod {
+  width: 300px;
+  height: 300px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.prod-page {
+  height: 39em;
+  border-radius: 20px;
+}
+
+.mapa {
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
