@@ -31,71 +31,85 @@
 <body class="bg-success">
 
     <!-- Menu BT -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light min-vw-100 mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="/css/img/logo.jpg" alt="" class="logo-nav"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/views/catalogo.html">Catalogo</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="/views/nosotros.html" role="button"
+                                aria-expanded="false">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/views/servicio.html">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/views/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Producto -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light min-vw-100 mb-4">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="/css/img/logo.jpg" alt="" class="logo-nav"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/catalogo.html">Catalogo</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="/views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/servicio.html">Servicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/contacto.html">Contacto</a>
-                    </li>
-                </ul>
+    <section>
+        <div data-aos="fade-up" class="container bg-light prod-page mt-5 mb-4">
+            <div class="row p-5 text-center">
+                <div class="col">
+                    <img class="img-prod" src="/css/img/error.png" alt="error">
+                    <h3 class=" mt-5">Lo sentimos, actualmente este producto no se encuentra disponible</h3>
+                    <a href="../catalogo.html"><button class="btn btn-success mt-3">Volver al catalogo</button></a>
+                </div>
             </div>
         </div>
-    </nav>
+    </section>
 
-    <div data-aos="fade-up" class="container bg-light prod-page mt-5 mb-4">
-        <div class="row p-5 text-center">
-            <img class="img-prod p-4 text-center mt-4" src="/css/img/error-svgrepo-com.svg" alt="error">
-            <h3 class=" mt-5">Lo sentimos, actualmente este producto no se encuentra disponible</h3>
-            <a href="../catalogo.html"><button class="btn btn-success mt-3">Volver al catalogo</button></a>
-        </div>
-    </div>
+    <!-- Footer -->
 
-    <footer class="justify-content-center align-items-center px-3 py-3 text-center text-black bg-light mt-5 footer">
-        <div class="row justify-content-center mt-4">
-            <div class="col col-md-auto">
-                <a href="https://www.instagram.com/" class="redes"><i
-                        class="fab fa-instagram foot fs-2 text-black"></i></a>
+    <footer class="justify-content-center align-items-center px-3 py-3 text-center text-black bg-light mt-5">
+        <div class="container-fluid w-100 bg-light text-white mt-5">
+            <div class="row justify-content-center mt-4">
+                <div class="col col-md-auto">
+                    <a href="https://www.instagram.com/" class="redes">
+                        <i class="fab fa-instagram foot fs-2 text-black"></i>
+                    </a>
+                </div>
+                <div class="col col-md-auto">
+                    <a href="https://www.facebook.com/" class="redes">
+                        <i class="fab fa-facebook-square foot fs-2 text-black"></i>
+                    </a>
+                </div>
+                <div class="col col-md-auto">
+                    <a href="https://wa.me/5493442570580">
+                        <i class="fab fa-whatsapp foot fs-2 text-black text-center"></i>
+                    </a>
+                </div>
             </div>
-            <div class="col col-md-auto">
-                <a href="https://www.facebook.com/" class="redes"><i
-                        class="fab fa-facebook-square foot fs-2 text-black"></i></a>
+            <div class="row w-100">
+                <p class="mx-auto text fs-5 border-bottom border-1 py-3 w-50 nav-item"></p>
             </div>
-            <div class="col col-md-auto">
-                <a href="https://wa.me/5493442570580"><i
-                        class="fab fa-whatsapp foot fs-2 text-black text-center"></i></a>
-            </div>
-        </div>
-        <div class="row w-100">
-            <p class="mx-auto text fs-5 border-bottom border-1 py-3 w-50 nav-item"></p>
-        </div>
-        <div class="row mt-3 mx-auto mb-3">
-            <div class="col text-center">
-                <a class="a-foot" aria-current="page" href="../index.html">Inicio</a>
-                <a class="a-foot" href="../views/catalogo.html">Catalogo</a>
-                <a class="a-foot" href="../views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
-                <a class="a-foot" href="../views/servicio.html">Servicio</a>
-                <a class="a-foot" href="../views/contacto.html">Contacto</a>
-                </ul>
+            <div class="row mt-3 mx-auto mb-3">
+                <div class="col text-center">
+                    <a class="a-foot" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="a-foot" href="/views/catalogo.html">Catalogo</a>
+                    <a class="a-foot" href="/views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
+                    <a class="a-foot" href="/views/servicio.html">Servicio</a>
+                    <a class="a-foot" href="/views/contacto.html">Contacto</a>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
@@ -113,4 +127,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
+
 </body>

@@ -32,179 +32,188 @@
 
   <!-- Menu BT -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light min-vw-100 mb-4">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img src="/css/img/logo.jpg" alt="" class="logo-nav"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/views/catalogo.html">Catalogo</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="/views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/views/servicio.html">Servicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/views/contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  <!-- Catalogo BT -->
-
-  <div class="container">
-    <nav class="navbar navbar-light cat border-bottom">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light min-vw-100 mb-4">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="../catalogo.html">Catalogo</a>
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <a class="navbar-brand" href="./index.html"><img src="/css/img/logo.jpg" alt="" class="logo-nav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Categorias</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Motos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="./gilera.html">Gilera</a></li>
-                  <li><a class="dropdown-item" href="./yamaha.html">Yamaha</a></li>
-                  <li><a class="dropdown-item" href="./zanella.html">Zanella</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./acc-rep.html">Accesorios y Repuestos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./cascos.html">Cascos</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/views/catalogo.html">Catalogo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/views/servicio.html">Servicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/views/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-  </div>
+  </header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col mb-3 mt-3 prod">
-        <span class="clearfix"></span>
-        <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/pirelli/cubiertas-1.png" class="card-img-top" alt="Cubiertas">
-          <div class="card-body">
-            <h5 class="card-title">Cubiertas Pirelli</h5>
-            <p class="card-text">$3.000</p>
-            <a href="#" class="btn btn-success">Ver más</a>
+  <!-- Catalogo BT -->
+
+  <section>
+    <div class="container">
+      <nav class="navbar navbar-light cat border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="../catalogo.html">Catalogo</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Categorias</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Motos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="./gilera.html">Gilera</a></li>
+                    <li><a class="dropdown-item" href="./yamaha.html">Yamaha</a></li>
+                    <li><a class="dropdown-item" href="./zanella.html">Zanella</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./acc-rep.html">Accesorios y Repuestos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./cascos.html">Cascos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col mb-3 mt-3 prod">
+          <span class="clearfix"></span>
+          <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/pirelli/cubiertas-1.png" class="card-img-top" alt="Cubiertas">
+            <div class="card-body">
+              <h5 class="card-title">Cubiertas Pirelli</h5>
+              <p class="card-text">$3.000</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 mt-3 prod">
+          <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/yamaha/aceite-yamaha-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aceite Yamalube</h5>
+              <p class="card-text">$1.500</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 mt-3 prod">
+          <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/slime.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Slime para Cubiertas</h5>
+              <p class="card-text">$900</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 mt-3 prod">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/motul/aceite-motul-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aceite Motul</h5>
+              <p class="card-text">$2.000</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col mb-3 mt-3 prod">
-        <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/yamaha/aceite-yamaha-1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Aceite Yamalube</h5>
-            <p class="card-text">$1.500</p>
-            <a href="#" class="btn btn-success">Ver más</a>
+      <div class="row">
+        <div class="col mb-3 mt-3 prod">
+          <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/motul/aceite-motul-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aceite Motul</h5>
+              <p class="card-text">$1.800</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col mb-3 mt-3 prod">
-        <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/slime.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Slime para Cubiertas</h5>
-            <p class="card-text">$900</p>
-            <a href="#" class="btn btn-success">Ver más</a>
+        <div class="col mb-3 mt-3 prod">
+          <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/motul/aceite-motul.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aceite Motul</h5>
+              <p class="card-text">$1.800</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col mb-3 mt-3 prod">
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/motul/aceite-motul-3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Aceite Motul</h5>
-            <p class="card-text">$2.000</p>
-            <a href="#" class="btn btn-success">Ver más</a>
+        <div class="col mb-3 mt-3 prod">
+          <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/pirelli/cubiertas-citycross.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cubiertas Pirelli CityCross</h5>
+              <p class="card-text">$2.900</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 mt-3 prod">
+          <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
+            <img src="/css/img/slime-kit.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Parche Slime</h5>
+              <p class="card-text">$3.900</p>
+              <a href="#" class="btn btn-success">Ver más</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col mb-3 mt-3 prod">
-        <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/motul/aceite-motul-2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Aceite Motul</h5>
-            <p class="card-text">$1.800</p>
-            <a href="#" class="btn btn-success">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-3 mt-3 prod">
-        <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/motul/aceite-motul.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Aceite Motul</h5>
-            <p class="card-text">$1.800</p>
-            <a href="#" class="btn btn-success">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-3 mt-3 prod">
-        <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/pirelli/cubiertas-citycross.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Cubiertas Pirelli CityCross</h5>
-            <p class="card-text">$2.900</p>
-            <a href="#" class="btn btn-success">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-3 mt-3 prod">
-        <div data-aos="fade-up" class="card mx-auto" style="width: 18rem;">
-          <img src="/css/img/slime-kit.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Parche Slime</h5>
-            <p class="card-text">$3.900</p>
-            <a href="#" class="btn btn-success">Ver más</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  </section>
   <!-- Footer -->
 
-  <div class="container-fluid w-100 bg-light text-white mt-5">
-    <footer class="justify-content-center align-items-center px-3 py-3 text-center text-black">
+  <footer class="justify-content-center align-items-center px-3 py-3 text-center text-black bg-light mt-5">
+    <div class="container-fluid w-100 bg-light text-white mt-5">
       <div class="row justify-content-center mt-4">
         <div class="col col-md-auto">
-          <a href="https://www.instagram.com/" class="redes"><i class="fab fa-instagram foot fs-2 text-black"></i></a>
+          <a href="https://www.instagram.com/" class="redes">
+            <i class="fab fa-instagram foot fs-2 text-black"></i>
+          </a>
         </div>
         <div class="col col-md-auto">
-          <a href="https://www.facebook.com/" class="redes"><i
-              class="fab fa-facebook-square foot fs-2 text-black"></i></a>
+          <a href="https://www.facebook.com/" class="redes">
+            <i class="fab fa-facebook-square foot fs-2 text-black"></i>
+          </a>
         </div>
         <div class="col col-md-auto">
-          <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp foot fs-2 text-black text-center"></i></a>
+          <a href="https://wa.me/5493442570580">
+            <i class="fab fa-whatsapp foot fs-2 text-black text-center"></i>
+          </a>
         </div>
       </div>
       <div class="row w-100">
@@ -213,15 +222,15 @@
       <div class="row mt-3 mx-auto mb-3">
         <div class="col text-center">
           <a class="a-foot" aria-current="page" href="../index.html">Inicio</a>
-          <a class="a-foot" href="../views/catalogo.html">Catalogo</a>
-          <a class="a-foot" href="../views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
-          <a class="a-foot" href="../views/servicio.html">Servicio</a>
-          <a class="a-foot" href="../views/contacto.html">Contacto</a>
+          <a class="a-foot" href="/views/catalogo.html">Catalogo</a>
+          <a class="a-foot" href="/views/nosotros.html" role="button" aria-expanded="false">Nosotros</a>
+          <a class="a-foot" href="/views/servicio.html">Servicio</a>
+          <a class="a-foot" href="/views/contacto.html">Contacto</a>
           </ul>
         </div>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
 
 

@@ -64,9 +64,9 @@ body {
 }
 
 .a-foot {
-  color: grey;
   text-decoration: none;
   margin-right: 10px;
+  color: grey;
 }
 
 .a-foot:hover {
@@ -124,11 +124,6 @@ body {
   margin-right: auto;
 }
 
-.img-prod {
-  width: 300px;
-  height: 300px;
-}
-
 .card {
   width: 18rem;
 }
@@ -140,5 +135,19 @@ body {
 
 .mapa {
   border-radius: 10px;
+}
+
+.input-form {
+  background-color: white;
+  padding: 15px;
+  color: #000000;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form {
+  padding: 60px;
 }
 /*# sourceMappingURL=styles.css.map */
