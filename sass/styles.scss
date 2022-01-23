@@ -82,7 +82,7 @@ body {
 }
 
 .img-carrusel {
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .prod-principal {
@@ -115,7 +115,7 @@ body {
 
 .prod-page {
     height: 39em;
-    border-radius: 20px;
+    margin: 40px;
 }
 
 .mapa {
@@ -135,4 +135,30 @@ body {
 .form {
     padding: 60px;
 
+}
+
+input, textarea {
+    border: 1px rgb(155, 155, 155) solid;
+    border-radius: 5px;
+    margin-left: 600px;
+}
+
+.img-nos {
+    height: 18rem;
+    width: 23rem;
+
+
+    .img-nos:hover {
+        transform: scale(1.03, 1.03);
+        transition: transform 0.3s ease-in-out;
+        -webkit-transition: transform 0.3s ease-in-out;
+        box-shadow: -2px -1px 6px -1px rgba(0,0,0,0.37);
+        -webkit-box-shadow: -2px -1px 6px -1px rgba(0,0,0,0.37);
+        -moz-box-shadow: -2px -1px 6px -1px rgba(0,0,0,0.37);
+    }
+}
+
+.valores {
+    height: 11rem;
+    width: 11rem;
 }
